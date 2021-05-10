@@ -17,13 +17,13 @@ The Tools used are:
 ![Home Screen](prototype/home.jpg)
 
 **Profile**
-![Profile](prototype/profile.jpg)
+![Profile](prototype/profile.png)
 
 **Pricing Section**
 ![Pricing Detail View](prototype/pricing.jpg)
 
 **Cards**
-![Cards](prototype/section.jpg)
+![Cards](prototype/section.png)
 
 
 ## How to setup on local machine?
