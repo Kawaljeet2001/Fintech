@@ -8,11 +8,17 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background: #0ead69;
+    background: #fff;
     
   }
 
   .splash-video{
-    width: 100%;
+    width: 70%;
 
+  }
+
+  @media(max-width : 750px){
+      .splash-video{
+          width: 100%;
+      }
   }

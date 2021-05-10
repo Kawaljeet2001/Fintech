@@ -39,6 +39,10 @@
     box-shadow: 1px 1px 10px 5px #ddd;
 }
 
+.bestseller__card__accordian_button{
+    color: #7b2cbf !important;
+}
+
 .Card-bestseller:hover{
     margin-top: -30px;
 }

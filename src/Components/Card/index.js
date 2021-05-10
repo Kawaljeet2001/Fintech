@@ -22,11 +22,10 @@ const Card = ({plan , cardnumber}) => {
                     <h3 className = {cardnumber == 2 ? "bestseller__Discount" : null}>Save {plan.percentDiscount}%</h3>    
                 </div>
                 <h1>
-                    Rs. {plan.price} <span>/yr</span>
+                    Rs. {plan.price} <span>/mo</span>
                 </h1>
                 <button className = {cardnumber == 2 ? "bestseller__button" : null}>Buy now</button>
             </div>
-
             <div className = "card__features">
                 {
                     plan.features.map((item , index) => {
@@ -34,9 +33,8 @@ const Card = ({plan , cardnumber}) => {
                     })
                 }
             </div>
-
             <div className = "card__seperator"></div>
-            <h4 className = "card__accordian_button">See all services <ArrowDropDownOutlinedIcon/> </h4>
+            <h4 className = {cardnumber == 2 ? "card__accordian_button bestseller__card__accordian_button" : "card__accordian_button"} >See all services <ArrowDropDownOutlinedIcon/></h4>
         </div>
     )
 }

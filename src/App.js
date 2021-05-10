@@ -82,7 +82,7 @@ if(whyusdivheading.current){
   useEffect(() => {
     setTimeout(() => {
       setisloading(false);
-    } , 5000)
+    } , 5600)
   }, [])
 
   return (<>
