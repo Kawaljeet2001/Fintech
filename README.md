@@ -7,12 +7,23 @@ A Fintech Service Application, frontend design made using React, Material-Ui, JS
 The Tools used are:
 
 * [React.js](https://github.com/facebook/react "React.js + Hooks") is used for creating the UI.
-* [Material Ui](https://github.com/facebook/react "Material UI") is used icons and robust UI components.
-* [Netlify](https://github.com/facebook/react "Netlify") is used for deploying web app.
+* [Material Ui](https://material-ui.com/components/icons/ "Material UI") is used icons and robust UI components.
+* [Netlify](https://www.netlify.com/ "Netlify") is used for deploying web app.
 
 
 ## Prototype Images 
 
+**Home Screen**
+![Home Screen](prototype/home.jpg)
+
+**Profile**
+![Profile](prototype/profile.jpg)
+
+**Pricing Section**
+![Pricing Detail View](prototype/pricing.jpg)
+
+**Cards**
+![Cards](prototype/section.jpg)
 
 
 ## How to setup on local machine?
