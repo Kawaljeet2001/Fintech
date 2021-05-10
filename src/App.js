@@ -5,7 +5,8 @@ import Footer from "./Components/Footer";
 import CardDetails from "./CardDetails";
 import Carousel from "./Components/Carousel";
 import "./animation.css";
-import {React , useRef} from "react";
+import {useEffect , useRef , useState} from "react";
+import Splash from "./Splash";
 
 const App = () => {
   const pricediv = useRef(null);
@@ -16,6 +17,7 @@ const App = () => {
   const pricedivheading = useRef(null);
 
 
+  const [isloading , setisloading] = useState(true);
 
 
   function getdivheights() {
@@ -77,7 +79,15 @@ if(whyusdivheading.current){
 
   })
   
-  return (
+  useEffect(() => {
+    setTimeout(() => {
+      setisloading(false);
+    } , 5000)
+  }, [])
+
+  return (<>
+  {
+    isloading ? <Splash/> :
     <>
       <Navbar />
       <div className="App" id = "home">
@@ -155,6 +165,9 @@ Let us help to find right plan for you
         
         <Footer/>
       </div>
+    </>
+     
+  }
     </>
   );
 }

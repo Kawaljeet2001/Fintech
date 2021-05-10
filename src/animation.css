@@ -20,6 +20,15 @@
 
 .navbar__links{
     opacity: 0;
+    animation-delay: 1s;
     animation: fadein 1.5s ease;
     animation-fill-mode: forwards;
+}
+
+
+.App{
+  opacity: 0;
+  animation: fadein 1s ease;
+  animation-fill-mode: forwards;
+  
 }

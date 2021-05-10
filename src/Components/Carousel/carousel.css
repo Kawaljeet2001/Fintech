@@ -62,5 +62,9 @@
         display: none;
     }
 
-    /* .carousel__banner */
+    .carousel__info h1{
+        width: 350px;
+    }
+
 }
+
